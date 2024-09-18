@@ -30,6 +30,9 @@
 </head>
 
 <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
     <div id='preloader'>
         <div class='loader'>
             <img src="img/loading.gif" width="80" alt="">
@@ -57,7 +60,6 @@
         </div>
     </header>
 
-    <!-- Slider Section -->
     <section class="slider_section">
         <ul id="main-slider" class="owl-carousel main_slider">
             <li class="main_slide d-flex align-items-center" style="background-image: url(img/slide-1.jpg);">
@@ -70,11 +72,29 @@
                     </div>
                 </div>
             </li>
-            <!-- Other Slides -->
+            <li class="main_slide d-flex align-items-center" style="background-image: url(img/slide-2.jpg);">
+                <div class="container">
+                    <div class="slider_content">
+                        <h3>Classic Hair Style & Shaves.</h3>
+                        <h1>Our hair styles<br>enhances your smile.</h1>
+                        <p>Our barbershop is the territory created purely for males who appreciate<br> premium quality, time and flawless look.</p>
+                        <a href="https://www.google.it/maps/place/34074+Monfalcone+GO/@45.8033,13.5264448,15.33z/data=!4m6!3m5!1s0x477b09e61f9ad2d3:0x6dcc37839a179b41!8m2!3d45.8092662!4d13.5320705!16zL20vMDd6bF9j?entry=tts&g_ep=EgoyMDI0MDkxNS4wKgBIAVAD" class="default_btn">Vieni a Trovarci</a>
+                    </div>
+                </div>
+            </li>
+            <li class="main_slide d-flex align-items-center" style="background-image: url(img/slide-3.jpg);">
+                <div class="container">
+                    <div class="slider_content">
+                        <h3>Its Not Just a Haircut, Its an Experience.</h3>
+                        <h1>Where mens want <br>to look there very best.</h1>
+                        <p>Our barbershop is the territory created purely for males who appreciate<br> premium quality, time and flawless look.</p>
+                        <a href="https://www.google.it/maps/place/34074+Monfalcone+GO/@45.8033,13.5264448,15.33z/data=!4m6!3m5!1s0x477b09e61f9ad2d3:0x6dcc37839a179b41!8m2!3d45.8092662!4d13.5320705!16zL20vMDd6bF9j?entry=tts&g_ep=EgoyMDI0MDkxNS4wKgBIAVAD" class="default_btn">Vieni a Trovarci</a>
+                    </div>
+                </div>
+            </li>
         </ul>
     </section>
 
-    <!-- Chi Siamo Section -->
     <section id="about" class="about_section bd-bottom padding">
         <div class="container">
             <div class="row">
@@ -83,7 +103,7 @@
                         <h3 class="wow fadeInUp" data-wow-delay="100ms">Introducing</h3>
                         <h2 class="wow fadeInUp" data-wow-delay="200ms">The Barber Shop <br>Since 1991</h2>
                         <img class="wow fadeInUp" data-wow-delay="500ms" src="img/about-logo.png" alt="logo">
-                        <p class="wow fadeInUp" data-wow-delay="600ms">Barber is a person whose occupation is mainly to cut dress groom style and shave men's and boys' hair. A barber's place of work is known as a "barbershop" or a "barber's". Barbershops are also places of social interaction and public discourse.</p>
+                        <p class="wow fadeInUp" data-wow-delay="600ms">Barber is a person whose occupation is mainly to cut dress groom style and shave men's and boys' hair. A barber's place of work is known as a "barbershop" or a "barber's". Barbershops are also places of social interaction and public discourse. In some instances, barbershops are also public forums.</p>
                         <a href="#about" class="default_btn wow fadeInUp" data-wow-delay="600ms">More About Us</a>
                     </div>
                 </div>
@@ -98,7 +118,29 @@
         </div>
     </section>
 
-    <!-- Servizi Section -->
+    <section class="mapoutermaps">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Dynamic%20Layers&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 350px;
+                    width: 100%;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 350px;
+                    width: 100%;
+                }
+            </style>
+        </div>
+    </section>
+
     <section id="services" class="service_section bg-grey padding">
         <div class="container">
             <div class="section_heading text-center mb-40 wow fadeInUp" data-wow-delay="300ms">
@@ -117,7 +159,7 @@
                 <div class="col-lg-3 col-md-6 sm-padding wow fadeInUp" data-wow-delay="300ms">
                     <div class="service_box">
                         <i class="bs bs-razor-2"></i>
-                        <h3>Beard Trimming</h3>
+                        <h3>Beard Triming</h3>
                         <p>Barber is a person whose occupation is mainly to cut dress style.</p>
                     </div>
                 </div>
@@ -139,7 +181,25 @@
         </div>
     </section>
 
-    <!-- Prezzi Section -->
+    <section id="reviews" class="testimonial_section padding">
+        <div class="container">
+            <ul id="testimonial_carousel" class="testimonial_items owl-carousel">
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br> professional. By far one of the worlds best known brands."</p>
+                    <h4 class="text-white">Anita Tran, IT Solutions.</h4>
+                </li>
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br> professional. By far one of the worlds best known brands."</p>
+                    <h4 class="text-white">Leslie Williamson, Developer.</h4>
+                </li>
+                <li class="testimonial_item">
+                    <p>"There are design companies, and then there are user experience design interface design<br> professional. By far one of the worlds best known brands."</p>
+                    <h4 class="text-white">Fred Moody, Network Software.</h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <section id="pricing" class="pricing_section bg-grey bd-bottom padding">
         <div class="container">
             <div class="section_heading text-center mb-40 wow fadeInUp" data-wow-delay="300ms">
@@ -154,32 +214,91 @@
                         <ul class="price_list">
                             <li>
                                 <h4>Hair Cut</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
                                 <span class="price">$8</span>
                             </li>
                             <li>
                                 <h4>Hair Styling</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
                                 <span class="price">$9</span>
                             </li>
                             <li>
-                                <h4>Hair Trimming</h4>
+                                <h4>Hair Triming</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
                                 <span class="price">$10</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!-- Other pricing items -->
+                <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="price_wrap">
+                        <h3>Shaving</h3>
+                        <ul class="price_list">
+                            <li>
+                                <h4>Clean Shaving</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$8</span>
+                            </li>
+                            <li>
+                                <h4>Beard Triming</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$9</span>
+                            </li>
+                            <li>
+                                <h4>Smooth Shave</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$10</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 sm-padding">
+                    <div class="price_wrap">
+                        <h3>Face Masking</h3>
+                        <ul class="price_list">
+                            <li>
+                                <h4>White Facial</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$8</span>
+                            </li>
+                            <li>
+                                <h4>Face Cleaning</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$9</span>
+                            </li>
+                            <li>
+                                <h4>Bright Tuning</h4>
+                                <p>Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                                <span class="price">$10</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contatti Section -->
+    <section class="cta_section padding">
+        <div class="container">
+            <div class="display-table">
+                <div class="table-cel">
+                    <div class="cta_content align-center wow fadeInUp" data-wow-delay="300ms">
+                        <h2>Making You Look Good <br> Is In Our Haritage.</h2>
+                        <p>Barber is a person whose occupation is mainly to cut dress groom <br>style and shave men's and boys hair.</p>
+                        <a href="https://www.google.it/maps/place/34074+Monfalcone+GO/@45.8033,13.5264448,15.33z/data=!4m6!3m5!1s0x477b09e61f9ad2d3:0x6dcc37839a179b41!8m2!3d45.8092662!4d13.5320705!16zL20vMDd6bF9j?entry=tts&g_ep=EgoyMDI0MDkxNS4wKgBIAVAD" class="default_btn">Vieni a Trovarci</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="widget_section padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 sm-padding">
                     <div class="footer_widget">
                         <img class="mb-15" src="img/logo.png" alt="Brand">
-                        <p>Our barbershop is created for men who appreciate premium quality, time and flawless look.</p>
+                        <p>Our barbershop is the created for men who appreciate premium quality, time and flawless look.</p>
                         <ul class="widget_social">
                             <li><a href="#"><i class="social_facebook"></i></a></li>
                             <li><a href="#"><i class="social_twitter"></i></a></li>
@@ -189,7 +308,40 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Other contact information -->
+                <div class="col-lg-3 col-md-6 sm-padding">
+                    <div class="footer_widget">
+                        <h3>Headquaters</h3>
+                        <p>962 Fifth Avenue, 3rd Floor New York, NY10022</p>
+                        <p><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4008252c2c2f0024392e212d29232c21392532336e2e2534">[email&#160;protected]</a> <br>(+123) 456 789 101</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 sm-padding">
+                    <div class="footer_widget">
+                        <h3>Opening Hours</h3>
+                        <ul class="opening_time">
+                            <li>Monday - Friday 11:30am - 2:008pm</li>
+                            <li>Saturday – Monday: 9am – 8pm</li>
+                            <li>Monday - Friday 5:30am - 11:008pm</li>
+                            <li>Saturday - Sunday 4:30am - 1:00pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 sm-padding">
+                    <div class="footer_widget">
+                        <h3>Subscribe to our contents</h3>
+                        <div class="subscribe_form">
+                            <form action="#" class="subscribe_form">
+                                <input type="email" name="email" id="subs-email" class="form_input" placeholder="Email Address...">
+                                <button type="submit" class="submit">SUBSCRIBE</button>
+                                <div class="clearfix"></div>
+                                <div id="subscribe-result">
+                                    <p class="subscription-success"></p>
+                                    <p class="subscription-error"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -212,7 +364,6 @@
             </div>
         </div>
     </footer>
-
     <a data-scroll href="#header" id="scroll-to-top"><i class="arrow_up"></i></a>
 
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
